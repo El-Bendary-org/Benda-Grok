@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "صيدليات البنداري | El-Bendary Pharmacies",
+      "hasCanvas": false,
+      "bodyTextLen": 3043,
+      "bodyTextHash": "81da4bf181706869e43edbcf210a3e51515fb0136bce4a605a7852c5e465dff6",
+      "bodyTextPrefix": "الخط الساخن 01200400094 شكاوى 01200400089 توصيل مبرد ٢٤/٧ · منذ ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "صيدليات البنداري | El-Bendary Pharmacies",
+      "hasCanvas": false,
+      "bodyTextLen": 2957,
+      "bodyTextHash": "67a3aaa6a3c996f592284fa5defc85a58587afd33fb663b3d9e8afb8417d0741",
+      "bodyTextPrefix": "الخط الساخن 01200400094 شكاوى 01200400089 توصيل مبرد ٢٤/٧ · منذ ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}

@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "IBM Plex Sans Arabic", "IBM Plex Sans", system-ui, sans-serif;
+  --font-display: "Cairo", "IBM Plex Sans Arabic", system-ui, sans-serif;
+  --color-ink: #1a1412;
+  --color-muted: #6d645e;
+  --color-paper: #f4efe8;
+  --color-surface: #fffdfb;
+  --color-sand: #ebe3d8;
+  --color-line: #e3d9ce;
+  --color-red: #d0121a;
+  --color-red-deep: #8c0e14;
+  --color-red-soft: #f8e4e2;
+  --color-leaf: #1c7a38;
+  --color-leaf-soft: #e5f3e9;
+  --radius-card: 1.25rem;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body {
+    font-family: var(--font-sans);
+    background: var(--color-paper);
+    color: var(--color-ink);
+    line-height: 1.55;
+    text-wrap: pretty;
+  }
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    text-wrap: balance;
+    line-height: 1.2;
+  }
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-red);
+    outline-offset: 2px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
