@@ -1,0 +1,201 @@
+[
+  {
+    "id": "المهندسين",
+    "name": "المهندسين",
+    "address": "69 شارع شهاب - تقاطع لبنان (بجوار مزايا)",
+    "allNumbers": "01210222822 / 01210222922 / 0233463222 / 0233488777",
+    "mobiles": [
+      "01210222822",
+      "01210222922"
+    ],
+    "landlines": [
+      "0233463222",
+      "0233488777"
+    ],
+    "whatsapp": "01210222822",
+    "whatsappNumbers": [
+      "01210222822",
+      "01210222922"
+    ],
+    "active": true,
+    "realTimeQueue": true
+  },
+  {
+    "id": "الجلاء (موقف الجلاء)",
+    "name": "الجلاء (موقف الجلاء)",
+    "address": "شارع الجلاء - أمام موقف الجلاء",
+    "allNumbers": "0403298793 / 01200400094 / 01207222322",
+    "mobiles": [
+      "01200400094",
+      "01207222322"
+    ],
+    "landlines": [
+      "0403298793"
+    ],
+    "whatsapp": "01200400094",
+    "whatsappNumbers": [
+      "01200400094",
+      "01207222322"
+    ],
+    "active": true,
+    "realTimeQueue": true
+  },
+  {
+    "id": "الجلاء (جرين بالاس)",
+    "name": "الجلاء (جرين بالاس)",
+    "address": "شارع الجلاء - أمام قاعة جرين بالاس",
+    "allNumbers": "0403546290",
+    "mobiles": [],
+    "landlines": [
+      "0403546290"
+    ],
+    "whatsapp": "",
+    "whatsappNumbers": [],
+    "active": true,
+    "realTimeQueue": true
+  },
+  {
+    "id": "الجلاء (الأمن المركزي)",
+    "name": "الجلاء (الأمن المركزي)",
+    "address": "شارع الجلاء - بجوار الأمن المركزي",
+    "allNumbers": "0403282323 / 01200400461",
+    "mobiles": [
+      "01200400461"
+    ],
+    "landlines": [
+      "0403282323"
+    ],
+    "whatsapp": "01200400461",
+    "whatsappNumbers": [
+      "01200400461"
+    ],
+    "active": true,
+    "realTimeQueue": true
+  },
+  {
+    "id": "البورصة",
+    "name": "البورصة",
+    "address": "شارع البورصة بجوار قسم أول - أسفل مول الشهاوى",
+    "allNumbers": "0403358874 / 01121369758",
+    "mobiles": [
+      "01121369758"
+    ],
+    "landlines": [
+      "0403358874"
+    ],
+    "whatsapp": "01121369758",
+    "whatsappNumbers": [
+      "01121369758"
+    ],
+    "active": true,
+    "realTimeQueue": true
+  },
+  {
+    "id": "الأشرف",
+    "name": "الأشرف",
+    "address": "شارع الأشرف مع المرشحة",
+    "allNumbers": "0403313012 / 01200400459",
+    "mobiles": [
+      "01200400459"
+    ],
+    "landlines": [
+      "0403313012"
+    ],
+    "whatsapp": "01200400459",
+    "whatsappNumbers": [
+      "01200400459"
+    ],
+    "active": true,
+    "realTimeQueue": true
+  },
+  {
+    "id": "كفر عصام",
+    "name": "كفر عصام",
+    "address": "كفر عصام - بجوار مدرسة أم المؤمنين",
+    "allNumbers": "0403332816 / 01207271272",
+    "mobiles": [
+      "01207271272"
+    ],
+    "landlines": [
+      "0403332816"
+    ],
+    "whatsapp": "01207271272",
+    "whatsappNumbers": [
+      "01207271272"
+    ],
+    "active": true,
+    "realTimeQueue": true
+  },
+  {
+    "id": "شارع سعيد",
+    "name": "شارع سعيد",
+    "address": "آخر شارع سعيد مع عمرو بن عبد العزيز",
+    "allNumbers": "0403318734 / 01200400469",
+    "mobiles": [
+      "01200400469"
+    ],
+    "landlines": [
+      "0403318734"
+    ],
+    "whatsapp": "01200400469",
+    "whatsappNumbers": [
+      "01200400469"
+    ],
+    "active": true,
+    "realTimeQueue": true
+  },
+  {
+    "id": "المعرض",
+    "name": "المعرض",
+    "address": "طريق القاهرة الزراعي - أمام مديرية الطب",
+    "allNumbers": "0403329519 / 01200400424",
+    "mobiles": [
+      "01200400424"
+    ],
+    "landlines": [
+      "0403329519"
+    ],
+    "whatsapp": "01200400424",
+    "whatsappNumbers": [
+      "01200400424"
+    ],
+    "active": true,
+    "realTimeQueue": true
+  },
+  {
+    "id": "طريق اسكندرية الزراعي",
+    "name": "طريق اسكندرية الزراعي",
+    "address": "بعد بنزينة أندريا - أمام بوابة الجامعة (الطب النفسي)",
+    "allNumbers": "0403344350 / 01200400471",
+    "mobiles": [
+      "01200400471"
+    ],
+    "landlines": [
+      "0403344350"
+    ],
+    "whatsapp": "01200400471",
+    "whatsappNumbers": [
+      "01200400471"
+    ],
+    "active": true,
+    "realTimeQueue": true
+  },
+  {
+    "id": "المحافظة",
+    "name": "المحافظة",
+    "address": "أول شارع النحاس من شارع البحر",
+    "allNumbers": "0403333406 / 01222258867",
+    "mobiles": [
+      "01222258867"
+    ],
+    "landlines": [
+      "0403333406"
+    ],
+    "whatsapp": "01222258867",
+    "whatsappNumbers": [
+      "01222258867"
+    ],
+    "active": true,
+    "realTimeQueue": true
+  }
+]

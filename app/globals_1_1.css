@@ -1,0 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800;900&family=Baloo+Bhaijaan+2:wght@700;800&display=swap');
+@tailwind base; @tailwind components; @tailwind utilities;
+* { font-family: 'Cairo', sans-serif; }
+.bubble-46 { font-family: 'Baloo Bhaijaan 2', sans-serif; font-weight: 800; }
