@@ -1,0 +1,1 @@
+import"./globals.css";import{AdSenseScript}from"@/components/AdSenseScript";export const metadata={title:"صيدليات البنداري",description:"خدمات الصيدلية والصحة والعناية"};export default function Layout({children}:{children:React.ReactNode}){return <html lang="ar" dir="rtl"><body><AdSenseScript/>{children}</body></html>}
