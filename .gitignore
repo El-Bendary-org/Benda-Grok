@@ -1,5 +1,9 @@
 node_modules/
-.project_id
-.github_repo
+.next/
 .env
 .env.*
+!.env.example
+.vercel/
+staff-credentials.csv
+staff-template.csv
+!staff-template.example.csv

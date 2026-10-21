@@ -1,19 +1,2 @@
-
-# El-Bendary Pharmacies - Final Production Version
-
-## مستقل - Powered by MoSTa & MoSTa ChaT
-- أبيض/أحمر فقط + Dark/Light
-- 2 نظام دخول: عميل (رقم موبايل) + موظف (200 بريد)
-- كتالوج 22,258 منتج ON/OFF
-- 11 فرع واتساب حقيقي
-- ارسال روشتة (كاميرا/معرض/نص)
-- BottomNav + SideMenu كما في الصور المرفقة
-
-## تشغيل:
-npm install
-npm run dev
-
-## Deploy Vercel:
-vercel --prod
-
-لا يوجد fake data - كل شيء حقيقي من الشيت والفروع.
+# Bendary production pack v4.1
+Read `COPY-MAP.md` first, then `API-SETUP.md`. This package contains phone/WhatsApp OTP plumbing, individual staff import for 200 real accounts, RBAC routing, editable advertisements, AdSense wiring, and the requested MoSta footer.
