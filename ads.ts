@@ -1,0 +1,1 @@
+import{AdPosition}from"@prisma/client";import{prisma}from"@/lib/prisma";export async function getAd(position:AdPosition){const n=new Date();return prisma.ad.findFirst({where:{position,enabled:true,AND:[{OR:[{startsAt:null},{startsAt:{lte:n}}]},{OR:[{endsAt:null},{endsAt:{gte:n}}]}]},orderBy:{updatedAt:"desc"}})}

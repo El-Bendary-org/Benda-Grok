@@ -1,0 +1,1 @@
+import{Role}from"@prisma/client";export const isStaff=(r?:Role)=>!!r&&r!=="CUSTOMER";export const isAdmin=(r?:Role)=>r==="ADMIN"||r==="SUPER_ADMIN";

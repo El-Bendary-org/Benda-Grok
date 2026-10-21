@@ -1,0 +1,9 @@
+generator client { provider = "prisma-client-js" }
+datasource db { provider = "postgresql" url = env("DATABASE_URL") }
+enum Role { CUSTOMER PHARMACIST BRANCH_MANAGER OPERATIONS ADMIN SUPER_ADMIN }
+enum AdType { ADSENSE DIRECT }
+enum AdPosition { HOME_HERO_AFTER HOME_SERVICES_AFTER HOME_CATEGORIES_AFTER STORE_TOP STORE_INLINE FOOTER_ABOVE }
+model User { id String @id @default(cuid()) name String? email String? @unique phone String? @unique passwordHash String? role Role @default(CUSTOMER) active Boolean @default(true) mustChangePassword Boolean @default(false) createdAt DateTime @default(now()) updatedAt DateTime @updatedAt }
+model OtpChallenge { id String @id @default(cuid()) phone String codeHash String expiresAt DateTime attempts Int @default(0) consumedAt DateTime? createdAt DateTime @default(now()) @@index([phone,expiresAt]) }
+model Ad { id String @id @default(cuid()) name String type AdType position AdPosition enabled Boolean @default(false) startsAt DateTime? endsAt DateTime? adsenseSlot String? imageUrl String? destinationUrl String? altText String? createdById String createdAt DateTime @default(now()) updatedAt DateTime @updatedAt @@index([position,enabled]) }
+model AuditLog { id String @id @default(cuid()) actorId String action String targetType String targetId String? metadata Json? createdAt DateTime @default(now()) @@index([actorId,createdAt]) }
